@@ -81,7 +81,7 @@ woodybiom<-terra::rast("./2016_WoodyVegetation/TBA_gam_utm36S.tif")
 hillshade<-terra::rast("./2023_elevation/hillshade_z5.tif")
 rainfall<-terra::rast("./rainfall/CHIRPS_MeanAnnualRainfall.tif")
 elevation<-terra::rast("./2023_elevation/elevation_90m.tif")
-
+terra::plot(elevation)
 # inspect the data 
 
 
